@@ -3,7 +3,7 @@ header {
     height:70px;
     width:100%;
     border-bottom:1px #CCCCCC;
-    background-image:url("../images/hbnb-logo.png");
+    content:url("../images/hbnb-logo.png");
     position:absolute;
     top:0;
     }
