@@ -5,6 +5,29 @@
 	border-radius: 4px;
 }
 
+section div {
+	display: inline-block;
+	height: 100%;
+	width: 25%;
+	padding-left: 4em;
+}
+
+.locations {
+	border-right: solid 1px #DDDDDD;
+}
+
+section div h3 {
+	margin-top: 0.75em;
+	margin-bottom: 0.25em;
+	font-weight: 600;
+}
+
+section div h4 {
+	margin-top: 0px;
+	font-weight: 400;
+	font-size: 14px;
+}
+
 button {
 	font-size: 18px;
 	margin-right: 30px;
