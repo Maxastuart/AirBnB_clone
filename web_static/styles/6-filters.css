@@ -48,6 +48,8 @@ li {
 li h2 {
 	padding: 0px;
 	margin: 0px;
+	position: relative;
+	left: -20px;
 }
 
 ul.popover {
@@ -57,6 +59,8 @@ ul.popover {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	background-color: #FAFAFA;
+	border: solid 1px #DDDDDD;
+	border-radius: 4px;
 }
 
 section div:hover ul.popover {
