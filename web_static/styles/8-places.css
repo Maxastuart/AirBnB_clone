@@ -17,6 +17,7 @@ article {
 	width: 390px;
 	padding: 20px;
 	margin: 20px;
+	box-sizing: content-box;
 	border: solid 1px #FF5A5F;
 	border-radius: 4px;
 }
@@ -24,13 +25,17 @@ article {
 article h2 {
 	display: inline-block;
 	font-size: 30px;
-	text-align: right;
+	margin-left: 65px;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	top: 0px;
 }
 
 div.price_by_night {
 	display: block;
 	color: #FF5A5F;
 	border: solid 4px #FF5A5F;
+	margin-top: -10px;
 	border-radius: 50%;
 	min-width: 60px;
 	height: 60px;
@@ -38,36 +43,41 @@ div.price_by_night {
 	float: right;
 	vertical-align: middle;
 	line-height: 60px;
+	padding: 5px;
 }
 
 .information {
 	height: 80px;
 	border-top: solid 1px #DDDDDD;
 	border-bottom: solid 1px #DDDDDD;
-	display: inline-block;
+	display: block;
+	padding-top: 8px;
+	margin-bottom: 10px;
 }
 
 div.information div {
 	width: 100px;
 	display: inline-block;
 	height: 100px;
-	vertical-align: bottom;
+	line-height: 120px;
 }
 
 .max_guest {
-	background: no-repeat url("../images/icon_group.png");
+	background: top no-repeat url("../images/icon_group.png");
 }
 
 .number_rooms {
-	background: no-repeat url("../images/icon_bed.png");
+	background: top no-repeat url("../images/icon_bed.png");
 }
 
 .number_bathrooms {
-	background: no-repeat url("../images/icon_bath.png");
+	background: top no-repeat url("../images/icon_bath.png");
 }
 
 .user {
 	text-align: left;
+	margin-top: 16px;
+	margin-bottom: 4px;
 }
 
 .description {
